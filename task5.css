@@ -1,0 +1,39 @@
+h1 {
+  text-align: center;
+}
+header {
+  background-color: lightgray;
+  height: 70px;
+  margin: 10px 20px;
+  text-align: center;
+}
+header li {
+  display: inline;
+  padding: 30px 90px;
+}
+header a:link {
+  color: purple;
+}
+#content {
+  text-align: center;
+  margin: 10px 20px;
+}
+#content article {
+  background-color: lightgray;
+  height: 150px;
+  margin: 10px 0px;
+}
+#content .column {
+  background-color: lightgray;
+  height: 300px;
+  margin: 10px 5px;
+  text-align: center;
+  width: 603px;
+  display: inline-block;
+}
+footer {
+  background-color: lightgray;
+  height: 120px;
+  margin: 10px 20px;
+  text-align: center;
+}

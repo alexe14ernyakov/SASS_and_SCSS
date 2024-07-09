@@ -1,0 +1,42 @@
+.common_styled(@bg, @hght, @mrgn){
+    background-color: @bg;
+    height: @hght;
+    margin: @mrgn;
+}
+
+h1{
+    text-align: center;
+}
+
+header{
+    .common_styled(lightgray, 70px, 10px 20px);
+    text-align: center;
+    li{
+        display: inline;
+        padding: 30px 90px;
+    }
+    a:link{
+        color: purple;
+    }
+}
+
+#content{
+    text-align: center;
+    margin: 10px 20px;
+    article{
+        .common_styled(lightgray, 150px, 10px 0px);
+    }
+    .column{
+        .common_styled(lightgray, 300px, 10px 5px);
+        text-align: center;
+        width: 603px;
+        display: inline-block;
+    }
+}
+
+footer{
+    .common_styled(lightgray, 120px, 10px 20px);
+    text-align: center;
+}
+
+// lessc Lab7/task5.less Lab7/task5.css
